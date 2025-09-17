@@ -39,3 +39,13 @@ console.log(62 % 32);
 
 console.log('Varun' + 'Reddy'); //VarunReddy
 console.log('Varun' + ' ' +  'Reddy'); //Varun Reddy
+
+//STRING LENGTH
+console.log('Hello'.length); //5
+
+//STRING METHODS
+console.log('Varun'.toUpperCase()); //VARUN
+console.log('Varun'.toLowerCase); //varun
+console.log('Varun'.startsWith('V'));//true
+console.log('Varun'.startsWith('r'));//false
+
