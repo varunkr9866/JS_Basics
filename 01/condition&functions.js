@@ -71,3 +71,11 @@ sayWishes('Varun');
 function sayHello(myName = 'Nobody'){
     console.log(`Hello ${myName} How are you`);
 }
+sayHello();
+
+//RETURN TYPE
+function area(b,h){
+    let area = b * h;
+    return area;
+}
+console.log(area(2,3));
