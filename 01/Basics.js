@@ -34,3 +34,8 @@ console.log(62 - 32);
 console.log(62 * 32);
 console.log(62 / 32);
 console.log(62 % 32);
+
+//String Concatenation
+
+console.log('Varun' + 'Reddy'); //VarunReddy
+console.log('Varun' + ' ' +  'Reddy'); //Varun Reddy
