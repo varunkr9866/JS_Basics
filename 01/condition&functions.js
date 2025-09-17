@@ -113,3 +113,14 @@ console.log(`Using Area Varable:${area(10,10)}`);
 var traingleArea = (base,height) =>0.5*base*height;
 var area = traingleArea;
 console.log(area(12,3));
+
+//SCOPE
+let valueOne = 10;  //global scope
+function funA(){
+    var valueTwo =20; //function scope var
+    console.log(valueOne); //Accessing Global Scope Variable
+}
+function funB(){
+    var valueThree =30; //Blocking scope
+    console.log(valueOne); //Accessing Global Scope Variable
+}
