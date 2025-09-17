@@ -28,3 +28,9 @@ console.log(a);
 var b; //Not assigning anyvalue
 console.log(b);//undefined value
 
+//ARTHMETIC OPERATIONS
+console.log(62 + 32);
+console.log(62 - 32);
+console.log(62 * 32);
+console.log(62 / 32);
+console.log(62 % 32);
