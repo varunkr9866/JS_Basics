@@ -66,3 +66,8 @@ function sayWishes(myName){
 }
 sayWishes('Varun');
 
+//DEFAULT PARAMETERS
+
+function sayHello(myName = 'Nobody'){
+    console.log(`Hello ${myName} How are you`);
+}
