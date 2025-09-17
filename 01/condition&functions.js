@@ -20,4 +20,24 @@ let Name = '';
 let Person = Name || 'nobody';
 console.log(`You know ,${Person} is a good person`);
 
+//SWITCH CASE
 
+let position = 'second';
+
+switch (position) {
+    case 'first':
+        console.log(1);
+        
+        break;
+    case 'second':
+        console.log(2);
+        
+        break;
+    case 'third':
+        console.log(3);
+        
+        break;
+
+    default:
+        break;
+}
