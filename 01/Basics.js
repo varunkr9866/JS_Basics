@@ -20,3 +20,11 @@ console.log(5);
 console.log(29.7);
 console.log(5>2);
 console.log(5<=5);
+
+//NULL AND UNDEFINED
+var a = null; //Assigning Null
+console.log(a);
+
+var b; //Not assigning anyvalue
+console.log(b);//undefined value
+
