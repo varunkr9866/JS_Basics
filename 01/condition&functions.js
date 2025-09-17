@@ -90,3 +90,12 @@ function mangoCost(count){
 let costOfMangos = mangoCost(10);
 console.log(`${costOfMangos}`);
 
+//WAYS WE CAN EXPRESS FUNCTION
+
+var traingleArea = function (b , h){
+    let area = 0.5 * b * h ;
+    return area;
+}
+var area = traingleArea;
+traingleArea = null;
+console.log(`Using Area Varable:${area(10,10)}`);
