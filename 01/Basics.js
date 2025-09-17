@@ -45,7 +45,7 @@ console.log('Hello'.length); //5
 
 //STRING METHODS
 console.log('Varun'.toUpperCase()); //VARUN
-console.log('Varun'.toLowerCase); //varun
+console.log('Varun'.toLowerCase()); //varun
 console.log('Varun'.startsWith('V'));//true
 console.log('Varun'.startsWith('r'));//false
 
@@ -67,3 +67,11 @@ var num = 55; //UNARY
 num += 5; //num = num+5; 
 var a = 5 + 6; //BINARY
 (condition) ? 56 : 65 ; //TERNARY
+
+//typeof
+let foo = 'Super Man'
+console.log(typeof foo);
+foo = 1987;
+console.log(typeof foo);
+foo = 5>2;
+console.log(typeof foo);
