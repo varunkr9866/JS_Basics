@@ -49,3 +49,9 @@ console.log('Varun'.toLowerCase); //varun
 console.log('Varun'.startsWith('V'));//true
 console.log('Varun'.startsWith('r'));//false
 
+//BUILT-IN-OBJECTS
+console.log(Math.random());//Generates Random Number from 0 to 1
+console.log(Math.floor(65.87));//65
+console.log(Math.ceil(65.87));//66
+console.log(Number.isInteger(76));
+console.log(Number.isInteger(75.35));
