@@ -12,3 +12,11 @@ console.log('My name is varun');
 console.log(1987);
 We are Writing anything over here is commented
 */
+
+//Data TYpes in JS
+console.log("Varun");
+console.log('javascript');
+console.log(5);
+console.log(29.7);
+console.log(5>2);
+console.log(5<=5);
