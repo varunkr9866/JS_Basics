@@ -54,4 +54,10 @@ console.log(Math.random());//Generates Random Number from 0 to 1
 console.log(Math.floor(65.87));//65
 console.log(Math.ceil(65.87));//66
 console.log(Number.isInteger(76));
-console.log(Number.isInteger(75.35));
+console.log(Number.isInteger(75.35)); 
+
+//LOCAL VARABLES USING LET AND CONST (ES6)
+let myName = "Varun";
+const age = 24;
+console.log(myName);
+console.log(age);
