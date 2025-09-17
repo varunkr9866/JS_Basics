@@ -61,3 +61,9 @@ let myName = "Varun";
 const age = 24;
 console.log(myName);
 console.log(age);
+
+//UNARY, BINARY AND TERNARY OPERATORS
+var num = 55; //UNARY
+num += 5; //num = num+5; 
+var a = 5 + 6; //BINARY
+(condition) ? 56 : 65 ; //TERNARY
