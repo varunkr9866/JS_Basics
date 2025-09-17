@@ -79,3 +79,14 @@ function area(b,h){
     return area;
 }
 console.log(area(2,3));
+
+//HELPER FUNCTIONS
+function mangoWeight(count){
+    return count * 0.25;
+}
+function mangoCost(count){
+    return mangoWeight(count) * 175;
+}
+let costOfMangos = mangoCost(10);
+console.log(`${costOfMangos}`);
+
