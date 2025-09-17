@@ -1,6 +1,6 @@
 //CONDITIONS & FUNCTION
 let flag = true;
-if(flag){
+if (flag) {
     console.log("Salute,salute,Salute");
 }
 
@@ -27,17 +27,28 @@ let position = 'second';
 switch (position) {
     case 'first':
         console.log(1);
-        
+
         break;
     case 'second':
         console.log(2);
-        
+
         break;
     case 'third':
         console.log(3);
-        
+
         break;
 
     default:
         break;
 }
+
+//FUNCTION IN JS
+
+function sayHello(){
+    console.log('Hello Everyone');
+}
+function sayWishes(){
+    console.log('Congrats');
+    
+}
+sayHello();
