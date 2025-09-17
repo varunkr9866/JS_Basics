@@ -51,4 +51,18 @@ function sayWishes(){
     console.log('Congrats');
     
 }
+
 sayHello();
+sayWishes();
+
+//functions
+
+function sayHello(myName){
+    console.log(`Hello ${myName} How are you`);
+}
+function sayWishes(myName){
+    console.log(`Congrats ${myName} that's amazing`);
+    
+}
+sayWishes('Varun');
+
