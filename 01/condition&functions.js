@@ -99,3 +99,17 @@ var traingleArea = function (b , h){
 var area = traingleArea;
 traingleArea = null;
 console.log(`Using Area Varable:${area(10,10)}`);
+
+//ARROW HEAD FUNCTION
+
+var traingleArea = (base , height)=>{
+    let area = 0.5 * base * height;
+    return area;
+}
+var area = traingleArea;
+console.log(`Using Area Varable:${area(10,10)}`);
+
+//CONSIDER BODY
+var traingleArea = (base,height) =>0.5*base*height;
+var area = traingleArea;
+console.log(area(12,3));
