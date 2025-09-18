@@ -85,3 +85,15 @@ const numb = mixedArray.filter(mainlogic);
 const months = ["March", "Jan", "Feb", "Dec"];
 months.sort();
 console.log(months);
+
+//REDUCE METHOD
+const array = [1, 2, 3, 4];
+
+// 0 + 1 + 2 + 3 + 4
+const initialValue = 0;
+const sumWithInitial = array.reduce(
+  (accumulator, currentValue) => accumulator + currentValue,
+  initialValue,
+);
+
+console.log(sumWithInitial);
