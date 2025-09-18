@@ -13,4 +13,15 @@ addMethod(8,8);
 
 console.log(addMethod.name);
 
-//CALL BACK FUNCTION
+//CALL BACK FUNCTIONS
+
+const sum = (param) => {
+    param(5,6);
+    console.log(`Finished adding two numbers`);    
+}
+
+const add = (x,y)=> {
+    console.log(`Sum of Two numbers is :${x + y}`);
+}
+
+sum(add);
