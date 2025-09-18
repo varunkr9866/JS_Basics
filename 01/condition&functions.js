@@ -124,3 +124,4 @@ function funB(){
     var valueThree =30; //Blocking scope
     console.log(valueOne); //Accessing Global Scope Variable
 }
+
