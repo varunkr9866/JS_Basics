@@ -35,10 +35,19 @@ console.log(`Initial  naton was ${nato.slice(1,7)}`);
 for(let i =0; i<5; i++){
     console.log(i);
 }
-for(let i =7; i<=0; i--){
+for(let i =7; i>=0; i--){
     console.log(i);
 }
 let nato = ['USA','UK','Germany','Canada','France','Italy','Turkey'];
 for(let i =0; i< nato.length; i++){
     console.log(nato[i]);
 }
+
+// WHILE LOOP
+let number = [0,1,2,3,4,5];
+// let i = 0;
+// while (i < number.length) {
+//     console.log(number[i]);
+//     i++;
+// }
+let rev = number.reverse();
