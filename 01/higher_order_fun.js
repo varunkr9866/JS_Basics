@@ -71,10 +71,17 @@ console.log(squares);
 //FILTER FUNCTIONS
 const mixedArray = ['apple','banana',7,6,5,'2',9.8,'25'];
 const mainlogic = function(items){
-    if (typeofitems == 'number') {
+    if (typeof items == 'number') {
         return true;
     } else {
       return false;    
     }
 }
 const numb = mixedArray.filter(mainlogic);
+
+
+
+//SORT METHOD
+const months = ["March", "Jan", "Feb", "Dec"];
+months.sort();
+console.log(months);
