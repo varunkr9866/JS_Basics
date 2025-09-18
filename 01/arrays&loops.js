@@ -24,6 +24,9 @@ console.log(str.length);
 //UNSHIFT | SHIFT
 let nato = ['USA','UK','Germany','Canada','France','Italy','Turkey'];
 nato.unshift('Ukraine');
-nato.shift('Ukraine');
+// nato.shift('Ukraine');
 
 console.log(nato);
+
+//SLICE ARRAYS
+console.log(`Initial  naton was ${nato.slice(1,7)}`);
