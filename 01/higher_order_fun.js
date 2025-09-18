@@ -30,12 +30,32 @@ sum((x,y) => {console.log(`Sum of Two numbers is :${x + y}`)
 });
 
 //DIFFRENT WAY
-const sums = (param,a,b) =>{
+const sums = (param, a,b) =>{
     param(a,b);
     console.log(`Finished adding two numbers`);
 }
 
-const addup = (x,y){
+const addup = (x,y)=>{
     console.log(`Sum of Two numbers is :${x + y}`);
 }
-sums(addup);
+sums(addup,5,6);
+
+//ITERATORS
+const fruitSalad = ['apple','pineapple','banana','orange','kiwi','custard'];
+
+let itrFruit = function (fruit){
+    console.log(`10 gms of ${fruit}`);
+}
+
+// fruitSalad.forEach(itrFruit);
+
+//SECOND WAY
+fruitSalad.forEach(function (fruit){
+    console.log(`10 gms of ${fruit}`);
+}
+);
+//THIRD WAY
+fruitSalad.forEach((fruit) =>{
+    console.log(`10 gms of ${fruit}`);
+}
+);
