@@ -69,3 +69,12 @@ const squares = numbers.map(logic);
 console.log(squares);
 
 //FILTER FUNCTIONS
+const mixedArray = ['apple','banana',7,6,5,'2',9.8,'25'];
+const mainlogic = function(items){
+    if (typeofitems == 'number') {
+        return true;
+    } else {
+      return false;    
+    }
+}
+const numb = mixedArray.filter(mainlogic);
