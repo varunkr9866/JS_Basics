@@ -7,4 +7,10 @@ addTwoNumbers(7,8);
 
 let addMethod = addTwoNumbers;
 
-addMethod(7,8);
+addMethod(8,8);
+
+//name method
+
+console.log(addMethod.name);
+
+//CALL BACK FUNCTION
