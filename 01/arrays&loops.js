@@ -22,7 +22,7 @@ let str ="Varun is A Good boy";
 console.log(str.length);
 
 //UNSHIFT | SHIFT
-let nato = ['USA','UK','Germany','Canada','France','Italy','Turkey'];
+// let nato = ['USA','UK','Germany','Canada','France','Italy','Turkey'];
 nato.unshift('Ukraine');
 // nato.shift('Ukraine');
 
@@ -30,3 +30,15 @@ console.log(nato);
 
 //SLICE ARRAYS
 console.log(`Initial  naton was ${nato.slice(1,7)}`);
+
+//LOOPS IN JAVASCRIPT
+for(let i =0; i<5; i++){
+    console.log(i);
+}
+for(let i =7; i<=0; i--){
+    console.log(i);
+}
+let nato = ['USA','UK','Germany','Canada','France','Italy','Turkey'];
+for(let i =0; i< nato.length; i++){
+    console.log(nato[i]);
+}
