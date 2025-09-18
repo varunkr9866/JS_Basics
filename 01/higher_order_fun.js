@@ -66,3 +66,6 @@ const logic = function (num){
     return num * num;
 }
 const squares = numbers.map(logic);
+console.log(squares);
+
+//FILTER FUNCTIONS
