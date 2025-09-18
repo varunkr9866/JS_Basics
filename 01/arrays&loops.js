@@ -12,3 +12,11 @@ console.log(`Burma is replaced by ${southAsia[4]} recently!`);
 const northAmerica = ['Canada','United States of america','Mexico'];
 northAmerica.push('Panama');
 console.log(northAmerica[3]);
+
+northAmerica.pop('Panama');
+
+console.log(northAmerica);
+
+//LENGTH OF STRING
+let str ="Varun is A Good boy";
+console.log(str.length);
