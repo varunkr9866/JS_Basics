@@ -20,3 +20,10 @@ console.log(northAmerica);
 //LENGTH OF STRING
 let str ="Varun is A Good boy";
 console.log(str.length);
+
+//UNSHIFT | SHIFT
+let nato = ['USA','UK','Germany','Canada','France','Italy','Turkey'];
+nato.unshift('Ukraine');
+nato.shift('Ukraine');
+
+console.log(nato);
