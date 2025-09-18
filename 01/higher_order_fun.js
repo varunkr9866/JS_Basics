@@ -59,3 +59,10 @@ fruitSalad.forEach((fruit) =>{
     console.log(`10 gms of ${fruit}`);
 }
 );
+
+//MAP FUNCTION
+const numbers = [1,2,3,5,7];
+const logic = function (num){
+    return num * num;
+}
+const squares = numbers.map(logic);
