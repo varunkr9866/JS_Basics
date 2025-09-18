@@ -25,3 +25,17 @@ const add = (x,y)=> {
 }
 
 sum(add);
+
+sum((x,y) => {console.log(`Sum of Two numbers is :${x + y}`)
+});
+
+//DIFFRENT WAY
+const sums = (param,a,b) =>{
+    param(a,b);
+    console.log(`Finished adding two numbers`);
+}
+
+const addup = (x,y){
+    console.log(`Sum of Two numbers is :${x + y}`);
+}
+sums(addup);
