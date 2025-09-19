@@ -107,3 +107,23 @@ let dogdetails ={
 dogdetails.hungry();
 console.log(dogdetails.getInfo());
 
+//get Methods
+
+let dogs ={
+    _breed :'Golden Retriver',
+    _weight : 18,
+    _color : 'Orange',
+    get breed(){
+        return this._breed;
+    },
+    get weight(){
+        return this._weight;
+    },
+     hungry(){
+        console.log("Start Wagging tail");
+    },
+    showInfo(){
+        return `my dog is a ${this.breed} in color & weight are${this.color}/ ${this.weight} kilos`;
+    }
+};
+
