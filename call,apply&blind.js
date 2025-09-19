@@ -81,3 +81,19 @@ let f2 = printName.bind(personOne, ['kadapa']);
 
 f1();
 f2();
+
+//FUNCTION BORROWING 
+//BIND METHOD
+let printName = function (hometown, state) {
+    console.log(`\n ${this.firstName} ${this.lastName} form ${hometown},${state}`);
+}
+let personOne = {
+    firstName: 'Varun',
+    lastName: 'Reddy',
+}
+let personTwo = {
+    firstName: 'sachin',
+    lastName: 'tendulkar',
+}
+printName.bind(personOne, 'kadapa', 'AP').call();
+printName.bind(personOne, ['kadapa']).call();
