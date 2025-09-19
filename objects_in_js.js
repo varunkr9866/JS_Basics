@@ -188,6 +188,8 @@ const address = {
 }
 
 const user = {
-    firstName : 'varun',
-    lastName : 'reddy'
+    ...profile,
+    gender : 'male',
+    ...address
 }
+console.log(user);
