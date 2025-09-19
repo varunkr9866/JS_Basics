@@ -87,7 +87,23 @@ let babys = {
     'lion' : 'cub',
     sheep : 'lamb'
 }
-for(let key in baby){
-    console.log(`child of ${key} is ${baby[key]}`);
-    
+for(let key in babys){
+    console.log(`child of ${key} is ${babys[key]}`);
 }
+
+//HYBRID OBJECTS
+
+let dogdetails ={
+    breed :'Golden Retriver',
+    color : 'Orange',
+    weight : 18,
+    hungry(){
+        console.log("Weigging the tail");
+    },
+    getInfo(){
+        return `my dog is a ${this.breed} in color & weight are${this.color}/ ${this.weight} kilos`;
+    }
+}
+dogdetails.hungry();
+console.log(dogdetails.getInfo());
+
