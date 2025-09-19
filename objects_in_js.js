@@ -14,3 +14,23 @@ console.log(`Weight of the dog is : ${dog.weight} Kilos`);
 let response = dog ['response to'];
 console.log(`My dog response to ${response}`);
 console.log(dog.tag_no);
+//ACCESSING THE KEY VALUE PAIRS 
+console.log(dog);
+console.log(dog['response to']);
+
+//PROPERTY ASSIGNMENTS
+
+let baby = {
+    cat : 'kitten',
+    dog : 'dog',
+    kangaroo : 'zoey',
+    'horse baby' : 'fawn',
+    'baby duck' : 'duckling',
+    'lion' : 'cub',
+    sheep : 'lamb'
+}
+
+baby.cow = 'calf';
+baby['Baby Monkey'] = 'Infant';
+
+//delete
