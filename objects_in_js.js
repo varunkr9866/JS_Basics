@@ -33,4 +33,8 @@ let baby = {
 baby.cow = 'calf';
 baby['Baby Monkey'] = 'Infant';
 
-//delete
+//DELETE PROPERTY
+delete baby.sheep;
+delete baby['Baby Monkey'];
+
+console.log(baby);
