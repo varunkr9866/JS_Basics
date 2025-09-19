@@ -60,15 +60,34 @@ console.log(actions.add(1,2));
  let profile ={
     fullName: 'Varun',
     lastname : 'Reddy',
-    childeren : 0,
+    children : 0,
     parents :['Jayarami Reddy','Lakshumma'],
     salaried : true
  }
 
  const modifyName = function (obj,changeName){
-obj.fullName = changeName;
+    obj.fullName = changeName;
  }
 
- const addChild = function (obj){
-obj.childeren = obj.children + 1;
+ const addChild = obj =>{
+    obj.children = obj.children + 1;
  }
+
+ addChild(profile);
+ console.log(profile);
+
+ //iterate using for..in
+ 
+let babys = {
+    cat : 'kitten',
+    dog : 'puppy',
+    kangaroo : 'zoey',
+    'horse baby' : 'fawn',
+    'baby duck' : 'duckling',
+    'lion' : 'cub',
+    sheep : 'lamb'
+}
+for(let key in baby){
+    console.log(`child of ${key} is ${baby[key]}`);
+    
+}
