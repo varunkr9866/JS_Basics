@@ -142,10 +142,29 @@ const dogFactory = ( breed, weight, color, violent ) => {
         _color: color,
         _violent: violent,
         showInfo() {
-            return `my dog is a ${this._breed} in color & weight are${this._color}/ ${this._weight} kilos`;
+           console.log(`my dog is a ${this._breed} in color & weight are${this._color}/ ${this._weight} kilos`);
+            this._violent ? console.log("It is Ferocious \n") : console.log("It is Sweet \n");
         }
     }
 }
 
 let d1 = dogFactory('Labrador',18,'Orange',false);
 d1.showInfo();
+
+//BUILT IN OBJECT METHODS
+const dogFactory = ( breed, weight, color, violent ) => {
+    return {
+        _breed: breed,
+        _weight: weight,
+        _color: color,
+        _violent: violent,
+        showInfo() {
+           console.log(`my dog is a ${this._breed} in color & weight are${this._color}/ ${this._weight} kilos`);
+            this._violent ? console.log("It is Ferocious \n") : console.log("It is Sweet \n");
+        }
+    }
+}
+
+let d1 = dogFactory('Labrador',18,'Orange',false);
+console.log(Object.keys(d1));
+
