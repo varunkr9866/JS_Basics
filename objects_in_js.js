@@ -38,3 +38,16 @@ delete baby.sheep;
 delete baby['Baby Monkey'];
 
 console.log(baby);
+
+//FUNCTION EXPRESSION AS PROPERTY
+const actions = {
+        sayHello : function() {
+        console.log("Hello Everyone!!");
+    },
+        sayNamaste : function(person) {
+        console.log(`Namaste ${person},How are you?`);
+    },
+    add : function (num1, num2){
+        return num1 +num2;
+    }
+}
