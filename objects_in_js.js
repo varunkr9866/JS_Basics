@@ -174,3 +174,20 @@ const dogentry = Object.entries(d1);
 //ASSIGN METHOD
 const modifydog = Object.assign({tail : 'Long & Furry', response_time : 2 ,d1});
 console.log(modifydog);
+
+//SPREAD OPERATOR
+
+const profile = {
+    firstName : 'varun',
+    lastName : 'reddy'
+}
+
+const address = {
+    country : 'India',
+    District : 'Kadapa'
+}
+
+const user = {
+    firstName : 'varun',
+    lastName : 'reddy'
+}
