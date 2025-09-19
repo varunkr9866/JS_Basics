@@ -51,3 +51,24 @@ const actions = {
         return num1 +num2;
     }
 }
+
+actions.sayHello();
+actions.sayNamaste('varun');
+console.log(actions.add(1,2));
+
+//PASS BY REFERENCE 
+ let profile ={
+    fullName: 'Varun',
+    lastname : 'Reddy',
+    childeren : 0,
+    parents :['Jayarami Reddy','Lakshumma'],
+    salaried : true
+ }
+
+ const modifyName = function (obj,changeName){
+obj.fullName = changeName;
+ }
+
+ const addChild = function (obj){
+obj.childeren = obj.children + 1;
+ }
