@@ -168,3 +168,9 @@ const dogFactory = ( breed, weight, color, violent ) => {
 let d1 = dogFactory('Labrador',18,'Orange',false);
 console.log(Object.keys(d1));
 
+//ENTRIES
+const dogentry = Object.entries(d1);
+
+//ASSIGN METHOD
+const modifydog = Object.assign({tail : 'Long & Furry', response_time : 2 ,d1});
+console.log(modifydog);
