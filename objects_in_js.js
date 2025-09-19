@@ -135,15 +135,17 @@ console.log(dogs.color);
 dogs.hungry();
 
 //Factory
-const dogFactory = { breed, weight, color, violent } => {
+const dogFactory = ( breed, weight, color, violent ) => {
     return {
         _breed: breed,
         _weight: weight,
         _color: color,
-        _violent: voilent,
+        _violent: violent,
         showInfo() {
-            return `my dog is a ${this.breed} in color & weight are${this.color}/ ${this.weight} kilos`;
-            this._violent? console.log("It is Ferocious \n") : console.log("It is Sweet \n");
+            return `my dog is a ${this._breed} in color & weight are${this._color}/ ${this._weight} kilos`;
         }
     }
 }
+
+let d1 = dogFactory('Labrador',18,'Orange',false);
+d1.showInfo();
