@@ -60,3 +60,9 @@ console.log("Please enter correct values")
 }
 }
 }
+
+//this represents object level variables
+
+//dereferencing the objects
+var object1 = new Object();
+object1 = null;
