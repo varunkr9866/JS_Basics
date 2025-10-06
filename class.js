@@ -20,3 +20,8 @@ const dogFactory = (breed,weight,color) =>{
   //methods
  }
 }
+
+let d1 = dogFactory('Labrador',18,'Orange');
+
+//class representation in js
+
