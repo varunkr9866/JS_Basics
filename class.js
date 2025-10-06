@@ -55,5 +55,8 @@ set color(newColor){
 if(typeof newColor == 'string'){
 this._color = newColor;
 }
+else{
+console.log("Please enter correct values")
+}
 }
 }
