@@ -1,3 +1,4 @@
+//Instance Object Creation
 let dog = {
 _breed:'Golden Retriver',
 _weight:18,
