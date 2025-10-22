@@ -30,3 +30,11 @@ function D(){
     console.log(`Inside Function D`);
     
 }
+
+A();
+
+setTimeout(B, 2000);
+
+setTimeout(C, 3000);
+
+D();
