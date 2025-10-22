@@ -11,3 +11,5 @@ let kishanBath = function(){
 
 balajiBath();
 kishanBath();
+
+setTimeout(balajiBath, 4000);
