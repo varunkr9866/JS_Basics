@@ -13,3 +13,20 @@ balajiBath();
 kishanBath();
 
 setTimeout(balajiBath, 4000);
+
+function A(){
+    console.log(`Inside Function A`);
+    
+}
+function B(){
+    console.log(`Inside Function B`);
+    
+}
+function C(){
+    console.log(`Inside Function C`);
+    
+}
+function D(){
+    console.log(`Inside Function D`);
+    
+}
