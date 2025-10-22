@@ -3,4 +3,4 @@ const greet = ()=>{
     
 }
 
-export {greet}
+export {greet};
