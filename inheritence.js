@@ -27,7 +27,7 @@ cosole.log("value of y : +this.y");
 cosole.log("value of z : +this.z");
 }
 sum(){
-return() this.x+this.y+this.z;
+return(this.x+this.y+this.z);
 }
 
 //TO ACCESS THE STATIC METHOD IN JS
