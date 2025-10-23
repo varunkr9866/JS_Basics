@@ -143,5 +143,37 @@ const profiles = {
 //  goToHell.then(displayKeys).catch(error);
 
 
-            //FINAL STAGE
+               //FINAL STAGE
 
+
+function keyPromiseFunction(resolve,reject) {
+    setTimeout((objs) =>{
+        let keys = Object.keys(objs);
+        (keys.length>0)?
+        resolve(keys):
+        reject(`Error While Parsing Keys From Object`);
+    },2000,profiles);
+}
+function profilePromiseFunction(resolve,reject) {
+    setTimeout((key,objs) =>{
+        (objs.hasOwnProporty(key))?
+        resolve(keys):
+        reject(`Error While Parsing Keys From Object`);
+    },3000,profiles);
+}
+
+function profilePromiseFunction(resolve,reject) {
+    setTimeout((obj) =>{
+        (obj.hasOwnProporty('age'))?
+        resolve(keys):
+        reject(`Property by name age does not exist`);
+    },2000,profiles['kishan']);
+}
+
+function profilePromiseFunction(resolve,reject) {
+    setTimeout((obj) =>{
+        (obj.hasOwnProporty('hobbies'))?
+        resolve(obj):
+        reject(`Property by name age does not exist`);
+    },2000,profiles['kishan']);
+}
