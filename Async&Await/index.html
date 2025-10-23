@@ -9,4 +9,26 @@
     <div id="info"></div>
     <center><button id="show" onclick = "getData()"></button></center>
 </body>
+<script>
+    function getData() {    
+        let url = 'http://randomuser.me/api/'
+        
+        function processData(response) {
+            console.log(response);
+            return response.json();
+        }
+        function printData(data) {
+            let element = document.getElementById('info')
+            element.innerHTML = "<center><h1> Name:"
+            +data.results[0].name.first
+            + " " + data.result[0].name.last 
+            +"</h1></center>" ;
+    }
+    function doSomething() {
+        console.log("If Error Occurs");
+        
+    }
+    fetch(url).then(processData).then(printData).catch(doSomething);
+}
+</script>
 </html>
