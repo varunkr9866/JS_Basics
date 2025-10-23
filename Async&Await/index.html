@@ -30,5 +30,9 @@
     }
     fetch(url).then(processData).then(printData).catch(doSomething);
 }
+    //Execution
+    let res = fetchData();
+    let dataObject = processData(res);
+    printData(dataObject);
 </script>
 </html>
