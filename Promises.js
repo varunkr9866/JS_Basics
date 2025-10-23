@@ -79,4 +79,29 @@ let iPromiseToBringChoclates = new Promise(tryToBringChoclates);
 iPromiseToBringChoclates.then(eatTheChoclates).catch(cryInACorner);
 
 
-
+const profiles = {
+    'balaji' :{
+        fullname : 'Balaji KR',
+        age:35,
+        married:true;
+        hobbies:['Defence','Finance','Foreign Affairs']
+    },
+    'seema' :{
+        fullname : 'seema H',
+        age:30,
+        married:true;
+        hobbies:['Cooking','Painting','Arts & Craft ']
+    },
+    'balaji' :{
+        fullname : 'Kishan KR',
+        age:10,
+        married:true;
+        hobbies:['Football','Video Games']
+    },
+    'balaji' :{
+        fullname : 'Rajeevalochana KV',
+        age:70,
+        married:true;
+        hobbies:['Watching TV']
+    }
+}
