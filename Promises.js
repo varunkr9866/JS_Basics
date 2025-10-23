@@ -121,23 +121,27 @@ const profiles = {
 //  goToHell.then(displayKeys).catch(error);
 
 
-let goToHell = new Promise(keyPromiseFunction);
 
-function keyPromiseFunction(resolve,reject) {
-    setTimeout((objs) =>{
-        let keys = Object.keys(objs);
-        (keys.length>0)?
-        resolve(keys):
-        reject(`Error While Parsing Keys From Object`);
-    },2000,profiles);
-}
-function displayKeys(keys) {
-    console.log(keys);
-}
-function error(msg) {
-    console.log(msg);
+        //STAGE 2
+// let goToHell = new Promise(keyPromiseFunction);
+
+// function keyPromiseFunction(resolve,reject) {
+//     setTimeout((objs) =>{
+//         let keys = Object.keys(objs);
+//         (keys.length>0)?
+//         resolve(keys):
+//         reject(`Error While Parsing Keys From Object`);
+//     },2000,profiles);
+// }
+// function displayKeys(keys) {
+//     console.log(keys);
+// }
+// function error(msg) {
+//     console.log(msg);
     
-}
- goToHell.then(displayKeys).catch(error);
+// }
+//  goToHell.then(displayKeys).catch(error);
 
+
+            //FINAL STAGE
 
