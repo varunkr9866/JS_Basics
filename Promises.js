@@ -66,4 +66,17 @@ const didIBringChoclates = function (resolve, reject) {
   }, 12000);
 };
 
-bringChoclates();
+function eatTheChoclates()() {
+    console.log('Kishan say thanks papa!');
+    
+}
+function cryInACorner() {
+    
+    console.log('Kishan say thanks papa!');
+}
+let iPromiseToBringChoclates = new Promise(tryToBringChoclates);
+
+iPromiseToBringChoclates.then(eatTheChoclates).catch(cryInACorner);
+
+
+
