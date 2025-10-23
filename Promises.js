@@ -162,7 +162,7 @@ function profilePromiseFunction(resolve,reject) {
     },3000,profiles);
 }
 
-function profilePromiseFunction(resolve,reject) {
+function agePromiseFunction(resolve,reject) {
     setTimeout((obj) =>{
         (obj.hasOwnProporty('age'))?
         resolve(keys):
@@ -170,10 +170,27 @@ function profilePromiseFunction(resolve,reject) {
     },2000,profiles['kishan']);
 }
 
-function profilePromiseFunction(resolve,reject) {
+function hobbiesPromiseFunction(resolve,reject) {
     setTimeout((obj) =>{
         (obj.hasOwnProporty('hobbies'))?
         resolve(obj):
         reject(`Property by name age does not exist`);
-    },2000,profiles['kishan']);
+    },4000,profiles['kishan']);
 }
+
+goToHell.then((keys) =>{
+    console.log(keys);
+    return new Promise(profilePromiseFunction);
+}).then(({key,objs}) =>{
+    console.log(objs[key]);
+    return new Promise(agePromiseFunction);
+}).then((obj) =>{
+    console.log(`Age of Kishan is :${obj['age']}`);
+    return new Promise(hobbiesPromiseFunction);
+}).then((obj) =>{
+    console.log(`Hobbies of Kishan is: ${obj['hobbies']}`);
+    return new Promise(hobbiesPromiseFunction);
+}).catch((msg) =>{
+    console.log(msg);
+    
+})
