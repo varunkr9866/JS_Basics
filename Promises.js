@@ -105,3 +105,16 @@ const profiles = {
         hobbies:['Watching TV']
     }
 }
+
+let goToHell = new Promise(keyPromiseFunction);
+
+function keyPromiseFunction(resolve,reject) {
+    //callback function for Promise
+}
+function displayKeys(keys) {
+    //callback function for resolve
+}
+function error(msg) {
+    //callback function for reject
+}
+ goToHell.then(displayKeys).catch(error);
