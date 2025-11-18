@@ -16,6 +16,9 @@ body{
     background-color: pink;
     margin: auto;
     height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
 }
 
 .message{
