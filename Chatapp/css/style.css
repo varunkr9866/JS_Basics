@@ -37,15 +37,24 @@ body{
     clear: both;
 }
 
-.send{
-    display: flex;
-    justify-content: center;
+.send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
 }
 
 #messageInp{
-
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
 }
 
-btn{
-    background-color: aqua;
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
 }
